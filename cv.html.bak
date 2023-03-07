@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV</title>
+	<style>
+		/* Style pour centrer la page horizontalement */
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		/* Style pour centrer le PDF verticalement */
+		embed {
+			height: 100vh;
+		}
+	</style>
+</head>
+<body>
+	<embed src="CV2023_Fred_Desiderio_V2.0.pdf" type="application/pdf" width="100%" />
+</body>
+</html>
