@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Remerciements</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
+    
+    
+    <style>
+            table {
+                height: 100vh; /* ajustez la hauteur en fonction de la taille de votre écran */
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #startButton {
+                font-size: 24px; /* ajustez la taille de la police en pixels */
+                padding: 10px 20px; /* ajustez le rembourrage en pixels */
+            }
+
+    .left-align {
+        text-align: left;
+    }
+    
+    .center-align {
+        text-align: center;
+    }
+    
+    .right-align {
+        text-align: right;
+    }
+</style>
+  </head>
+  <body style="background-color: lightgrey;"> 
+    <div>
+      <button><a href="index.html" class="button circled">HOME</a></button>
+    </div>
+    <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">REMERCIEMENTS</h1><br>
+    <p class="center-align">Je tiens à remercier tous ceux qui, de près ou de loin, m'ont aidé dans cette candidature. <br>
+      Chacun de nos échanges a été pour moi enrichissants, tant sur le plan humain que professionel.</p>
+    
+    <table>
+      <tbody>
+        <tr>
+          <td> <marquee behavior="scroll" direction="up" scrollamount="3" id="myMarquee">
+              1ere ligne de texte<br>
+              <br>
+              2eme ligne de texte<br>
+              <br>
+              3eme ligne de texte<br>
+              <br>
+            	4eme ligne de texte<br>
+              <br>
+              5eme ligne de texte<br>
+              <br>
+              6eme ligne de texte<br>
+            	<br>
+            	7eme  ligne de texte<br>
+              <br>
+              8eme ligne de texte<br>
+              <br>
+              9eme ligne de texte<br>
+              <br>
+              
+            </marquee> </td>
+        </tr>
+      </tbody>
+    </table>
+    <script>
+            function startMarquee() {
+                document.getElementById("myMarquee").start();
+            }
+        </script>
+  </body>
+</html>
+<style>
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+</style>

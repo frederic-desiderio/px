@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exemple de défilement de texte centré dans un tableau</title>
+    <style background-color:=" #cccccc=">
+table {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#txt_thx {
+  font-size: large;
+}
+
+#bg {
+  background-color: white;
+}
+
+</style> </head>
+  <body id="txt_thx">
+    <table>
+      <tbody>
+        <tr>
+          <td> <marquee id="bg" behavior="scroll" direction="up" scrollamount="3">
+              Première ligne de texte<br>
+              <br>
+              Deuxième ligne de texte<br>
+              <br>
+              Troisième ligne de texte<br>
+              <br>
+              Quatrième ligne de texte<br>
+              <br>
+              5eme ligne de texte<br>
+              <br>
+              6eme ligne de texte<br>
+              <br>
+              7eme ligne de texte<br>
+              <br>
+              !e ligne de texte<br>
+              <br>
+            </marquee> </td>
+        </tr>
+      </tbody>
+    </table>
+    <button type="button" name="Home"></button>
+  </body>
+</html>

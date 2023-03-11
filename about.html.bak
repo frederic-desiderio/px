@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Sommaire</title>
+    <style>
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: orange;
+  border-top-width: medium;
+  border-right-width: medium;
+  border-bottom-width: medium;
+  border-left-width: medium;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#center {
+  justify-content: center;
+  color: #6600cc;
+}
+
+#titre_purple {
+  color: #6600cc;
+}
+
+</style> </head>
+  <body>
+    <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">A PROPOS DE MOI</h1>
+    <div> <button>Cat 1</button> <button>Cat 2</button> <button>Cat 3</button>
+    </div>
+  </body>
+</html>

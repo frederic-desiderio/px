@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Titre de la page</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>SWOT</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
     <style>
 table {
   margin-top: 0px;
@@ -24,6 +29,7 @@ html, body {
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -37,20 +43,55 @@ body {
   background-color: #cccccc;
 }
 
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.right-align {
+  text-align: right;
+}
+
+#purple {
+  color: #6600cc;
+}
+
 </style> </head>
-  <body style="  background-color: #cccccc;">
-    <h1 id="swot">Analyse SWOT</h1>
+  <body style="       background-color: #cccccc;">
+    <div> <button><a href="index.html" class="button circled">HOME</a></button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h1 style="text-align:center; color:purple; font-size:30px;">SWOT</h1>
     <p><br>
     </p>
     <table>
       <tbody>
         <tr>
           <td> <video id="bg_swot" controls="controls" height="360" width="640">
-              <source src="chemin/vers/la/video.mp4" type="video/mp4"> <source
+              <source src="chemin/vers/la/video.mp4" type="video/mp4"> <source
+
                 src="swot.webm" type="video/webm"> Votre navigateur ne supporte
               pas la lecture de vid√©os. </video> </td>
         </tr>
       </tbody>
     </table>
+    <style>
+            table {
+                height: 100vh; /* ajustez la hauteur en fonction de la taille de votre Ècran */
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            #startButton {
+                font-size: 24px; /* ajustez la taille de la police en pixels */
+                padding: 10px 20px; /* ajustez le rembourrage en pixels */
+            }
+        </style>
   </body>
 </html>
