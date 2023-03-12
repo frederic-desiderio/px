@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Next Steps</title>
+    <style>
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      button {
+        margin: 10px;
+        padding: 10px 150px;
+        background-color: darkorange;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+    
+    .left-align {
+        text-align: left;
+    }
+    
+    .center-align {
+        text-align: center;
+    }
+    
+    .right-align {
+        text-align: right;
+    }
+    </style>
+  </head>
+  <body style="   background-color: lightgrey;">
+    <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">NEXT STEPS</h1>
+    <div> <button>HOME<a href="index.html"></a></button> 
+      <button>Fiber</button> <button>Cluster</button>
+      <button>Business</button> <button>Cedric</button> </div>
+  </body>
+</html>

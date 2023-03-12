@@ -60,7 +60,7 @@ body {
 }
 
 </style> </head>
-  <body style="       background-color: #cccccc;">
+  <body style="background-color: lightgrey;"> 
     <div> <button><a href="index.html" class="button circled">HOME</a></button>
     </div>
     <br>

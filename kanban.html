@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta content="text/html; charset=windows-1252" http-equiv="content-type">
-    <title>ANALYSES</title>
+    <title>KANBAN</title>
     <style>
       div {
         display: flex;
@@ -35,12 +35,27 @@
     .right-align {
         text-align: right;
     }
+      
+      .images-container {
+  text-align: center; /* centre les images horizontalement */
+}
+
+.images-container img {
+  display: inline-block; /* affiche les images côte à côte */
+  margin-right: 20px; /* ajoute un petit espace entre les images */
+}
+      img {
+  max-width: 100%;
+  height: auto;
+  width: 80vw;
+}
+
+
     </style>
   </head>
-  <body style=" background-color: lightgrey;">
-    <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">Analyses</h1>
-    <div> <a href="index.html"><button>HOME </button></a> <a target="_blank"
-        href="clients.html"><button>CLIENTS</button></a> <a target="_blank" href="dof.html"><button>DOF</button></a>
-      <a target="_blank" href="pbus.html"><button>POIDS BUS</button></a> </div>
+  <body style="    background-color: lightgrey;">
+    <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">Préparation
+      - KANBAN</h1>
+    <div class="images-container"> <img src="kb.png" alt="Tableau Kanban"> </div>
   </body>
 </html>
