@@ -1,0 +1,26 @@
+Acces rapide: 	- kanban --> new onglet
+			- CV --> idem
+			- Timeline et/ou next step? à définir
+			- Next step ne va pas 
+
+Page actions: 	- Home ne va pas
+			- Remplacer boutons existants (ou teasing explications) par ceux de Next Step --> cedric, business, etc... mais juste en teasant !!!!
+
+
+index:		- Remerciements ne va pas
+			- Supprimer lien de contact et créer une vraie page (ou rediriger en fin de index.html)
+			- Feedback: à remplir avec infos vendeurs/employés + Ajout bouton Home
+
+
+Apropos de moi (about.html):	Bouton 1 = Home; Bouton 2 = CV; Bouton 3 = description brève
+
+Préparation (prepa.html): Bouton 1 = Home; Bouton 2 = KANBAN; Bouton 3 = Interviews
+			
+
+Next steps (ambitions.html):	- Bouton home ne va pas
+					- Ligne du temps (sous kan ban?) pour "une fois dans la fonction"	
+
+
+
+		
+
