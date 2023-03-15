@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
-    <title>Sommaire</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>A propos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
     <style>
 div {
   display: flex;
@@ -10,6 +13,18 @@ div {
   justify-content: center;
   align-items: center;
 }
+      table {
+                height: 100vh; /* ajustez la hauteur en fonction de la taille de votre écran */
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+      #startButton {
+                font-size: 24px; /* ajustez la taille de la police en pixels */
+                padding: 10px 20px; /* ajustez le rembourrage en pixels */
+            }
+
 
 button {
   margin-top: 10px;
@@ -48,9 +63,13 @@ button {
 }
 
 </style> </head>
-  <body>
-    <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">A PROPOS DE MOI</h1>
-    <div> <button>Cat 1</button> <button>Cat 2</button> <button>Cat 3</button>
+  <body style="     background-color: lightgrey;">
+    <div> <button><a href="index.html" class="button circled">HOME</a></button>
     </div>
+    <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">A
+      PROPOS DE MOI</h1>
+    <div> <button>HOME</button> <button>CV</button> <button>Fred en quelques
+        mots</button> </div>
+    
   </body>
 </html>

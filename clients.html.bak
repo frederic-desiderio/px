@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta content="text/html; charset=windows-1252" http-equiv="content-type">
-    <title>Sommaire</title>
+    <title>Clients par FTE</title>
     <style>
       div {
         display: flex;
@@ -51,7 +51,6 @@
     <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">Analyse
       - Clients par FTE</h1>
     <div class="images-container"> <img src="clients1.png" alt="Clients par FTE">
-      <img src="clients2.png" alt="Image 2">
-    </div>
+      <img src="clients2.png" alt="Image 2"> </div>
   </body>
 </html>

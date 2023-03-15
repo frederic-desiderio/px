@@ -21,8 +21,7 @@
             <p><br>
             </p>
           </header>
-          <footer> <a href="#banner" class="button circled scrolly">Start</a>
-          </footer>
+          <footer> <a href="#banner" class="button circled scrolly">Start</a> </footer>
         </div>
         <!-- Nav -->
         <nav id="nav">
@@ -30,21 +29,20 @@
             <li><a href="index.html">Home</a></li>
             <li> Accès rapide
               <ul>
-                <li><a href="cv.html">CV</a></li>
+                <li><a href="cv.html" target="_blank">CV</a></li>
                 <li><a href="analyse.html">Analyses</a></li>
                 <li><a href="actions.html">Actions</a></li>
                 <li> <a href="prepa.html">Préparation</a>
                   <ul>
-                    <li><a href="kanban.html">KANBAN</a></li>
+                    <li><a href="kanban.html" target="_blank">KANBAN</a></li>
                     <li><a href="timeline.html">Timeline</a></li>
                     <li><a href="interviews.html">Interviews</a></li>
-                    <li><a href="ambitions.html">Next Steps</a></li>
                   </ul>
                 </li>
-                <li><a href="#">Next Step</a></li>
+                <li><a href="ambitions.html">Next Step</a></li>
               </ul>
             </li>
-            Remercieme<a href="remerciements.html">nts </a>
+             <a href="rem.html" target="_blank">Remerciements </a>
             <li><a href="no-sidebar.html">Contact</a></li>
           </ul>
         </nav>

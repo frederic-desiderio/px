@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
-    <title>Sommaire</title>
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title>Fred Desiderio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
     <style>
-      div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      button {
-        margin: 10px;
-        padding: 10px 20px;
-        background-color: darkorange;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        font-weight: bold;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-      }
-    
-    .left-align {
-        text-align: left;
-    }
-    
-    .center-align {
-        text-align: center;
-    }
-    
-    .right-align {
-        text-align: right;
-    }
+      section {
+  text-align: center;
+}
     </style>
   </head>
-  <body style="background-color: lightgrey;">
-    <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">Feedback</h1>
-    <div> <button>Catégorie 1</button> <button>Catégorie 2</button> <button>Catégorie
-        3</button> </div>
+  <body class="homepage is-preload">
+    <div id="page-wrapper">
+      <!-- Header -->
+      <!-- Nav -->
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Banner -->
+    <section id="banner">
+      <header>
+        <h2>Feedback</h2>
+        <p>A la suite de plusieurs actions et démarches, j'ai tenu à avoir un
+          feedback des personnes avec qui j'ai eu l'occasion de collaborer. </p>
+      </header>
+    </section>
+    <!-- Carousel -->
+    <section class="carousel">
+      <div class="reel">
+        <article> <a href="#" class="image featured"><img src="images/pic01.jpg"
+
+              alt=""></a>
+          <header>
+            <h3><a href="vendeurs.html" class="button scrolly">Vendeurs</a></h3>
+          </header>
+          <p><br>
+          </p>
+        </article>
+        <article> <a href="#" class="image featured"><img src="images/pic02.jpg"
+
+              alt=""></a>
+          <header>
+            <h3><a href="mgr.html" class="button scrolly">Gérants<br>
+              </a></h3>
+          </header>
+          <p><br>
+          </p>
+        </article>
+      </div>
+    </section>
+    
   </body>
 </html>

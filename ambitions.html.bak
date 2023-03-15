@@ -3,44 +3,74 @@
   <head>
     <meta content="text/html; charset=windows-1252" http-equiv="content-type">
     <title>Next Steps</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
     <style>
-      div {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-      button {
-        margin: 10px;
-        padding: 10px 150px;
-        background-color: darkorange;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        font-weight: bold;
-        color: white;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-      }
-    
-    .left-align {
-        text-align: left;
-    }
-    
-    .center-align {
-        text-align: center;
-    }
-    
-    .right-align {
-        text-align: right;
-    }
-    </style>
-  </head>
-  <body style="   background-color: lightgrey;">
-    <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">NEXT STEPS</h1>
-    <div> <button>HOME<a href="index.html"></a></button> 
-      <button>Fiber</button> <button>Cluster</button>
-      <button>Business</button> <button>Cedric</button> </div>
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+      table {
+                height: 100vh; /* ajustez la hauteur en fonction de la taille de votre écran */
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+      #startButton {
+                font-size: 24px; /* ajustez la taille de la police en pixels */
+                padding: 10px 20px; /* ajustez le rembourrage en pixels */
+            }
+
+
+button {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  background-color: lightgray;
+  border-top-width: medium;
+  border-right-width: medium;
+  border-bottom-width: medium;
+  border-left-width: medium;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+#center {
+  justify-content: center;
+  color: #6600cc;
+}
+
+#titre_purple {
+  color: #6600cc;
+}
+
+
+</style> </head>
+  <body style="          background-color: lightgrey;">
+    <div> <button><a href="index.html" class="button circled">HOME</a></button>
+    </div>
+    <h1 style="text-align:center; color:purple; border: 3px solid black; font-size:30px;">NEXT
+      STEPS</h1>
+    <div> <button>Fiber<a href="fiber.html"></a></button>
+      <button>Cluster<a href="cluster.html"></a></button> <button>Business</button>
+      <button>Cedric</button> </div>
   </body>
 </html>
