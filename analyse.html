@@ -10,6 +10,16 @@
       section {
   text-align: center;
 }
+      .carousel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-behavior: smooth; /* Pour un défilement fluide */
+}
+
+.reel {
+  display: flex;
+  flex-direction: row; /* Permet de mettre les articles côte à côte */
+}
     </style>
   </head>
   <body class="homepage is-preload">
@@ -35,7 +45,8 @@
     <!-- Carousel -->
     <section class="carousel">
       <div class="reel">
-        <article> <a href="#" class="image featured"><img src="images/pic01.jpg"
+        <article> <a href="#" class="image featured"><img src="images/pic01.jpg"
+
               alt=""></a>
           <header>
             <h3><a href="clients.html" class="button scrolly">Clients</a></h3>
@@ -43,7 +54,8 @@
           <p><br>
           </p>
         </article>
-        <article> <a href="#" class="image featured"><img src="images/pic02.jpg"
+        <article> <a href="#" class="image featured"><img src="images/pic02.jpg"
+
               alt=""></a>
           <header>
             <h3><a href="pbus.html" class="button scrolly">Poids BUS<br>
@@ -52,7 +64,8 @@
           <p><br>
           </p>
         </article>
-        <article> <a href="#" class="image featured"><img src="images/pic03.jpg"
+        <article> <a href="#" class="image featured"><img src="images/pic03.jpg"
+
               alt=""></a>
           <header>
             <h3><a href="dof.html" class="button">Dof Adoption</a></h3>
@@ -60,7 +73,8 @@
           <p><br>
           </p>
         </article>
-        <article> <a href="#" class="image featured"><img src="images/pic04.jpg"
+        <article> <a href="#" class="image featured"><img src="images/pic04.jpg"
+
               alt=""></a>
           <header>
             <h3><a href="evo.html" class="button">Points evolution</a></h3>
@@ -70,5 +84,6 @@
         </article>
       </div>
     </section>
+    
   </body>
 </html>
